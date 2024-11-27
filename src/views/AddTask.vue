@@ -1,6 +1,6 @@
 <template>
     <div class="container my-5">
-        <h1 class="text-center mb-4">Añadir</h1>
+        <h1 class="text-center mb-4">Añadir MichiTask</h1>
         <div class="input-group mb-3">
             <input
                 v-model="newTask"
