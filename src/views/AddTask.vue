@@ -1,6 +1,6 @@
 <template>
     <div class="container my-5">
-        <h1 class="text-center mb-4">Agregar tarea</h1>
+        <h1 class="text-center mb-4">Aña tarea</h1>
         <div class="input-group mb-3">
             <input
                 v-model="newTask"
@@ -8,7 +8,7 @@
                 placeholder="Añadir nueva tarea"
                 class="form-control"
             />
-            <button @click="addTask" class="btn btn-success">Agregar</button>
+            <button @click="addTask" class="btn btn-success">Añadir</button>
         </div>
 
         <ul v-if="tasks.length > 0" class="list-group">
