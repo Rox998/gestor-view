@@ -1,7 +1,7 @@
 <template>
     <div class="container my-5">
-        <h1 class="text-center mb-4">Lista de Tareas</h1>
-        <button @click="fetchTasks" class="btn btn-primary w-100 mb-3">Cargar tareas desde la API</button>
+        <h1 class="text-center mb-4">Tareas a realizar</h1>
+        <button @click="fetchTasks" class="btn btn-info w-100 mb-3">Buscar y cargar tareas de la API</button>
 
         <div v-if="tasks.length > 0" class="list-group">
             <div v-for="task in tasks" :key="task.id" class="list-group-item">
@@ -25,7 +25,7 @@
             </div>
         </div>
 
-        <p v-else class="text-center text-muted">No hay tareas cargadas. Haz clic en "Cargar Tareas".</p>
+        <p v-else class="text-center text-muted">No hay tareas cargadas...</p>
     </div>
 </template>
 
